@@ -98,10 +98,10 @@ Proxy:
 # Shadowsocks
 - name: "1"
   type: ss
-  server: 1.2.4.8
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: "password"
+  server: 149.129.62.63
+  port: 9000
+  cipher: aes-256-gcm
+  password: "g6jJlqVzda"
   # udp: true
 
 # Shadowsocks + simple-obfs
@@ -137,16 +137,16 @@ Proxy:
 # VMess
 - name: "4"
   type: vmess
-  server: v2ray.cool
-  port: 443
-  uuid: a3482e88-686a-4a58-8126-99c9df64b7bf
+  server: 149.129.62.63
+  port: 45547
+  uuid: d0795ad9-cdab-42fe-c1ca-af80575b2bbe
   alterId: 64
   cipher: auto
   # udp: true
-  # tls: true
+  tls: true
   # skip-cert-verify: true
   # network: ws
-  # ws-path: /path
+  ws-path: /
   # ws-headers:
   #   Host: v2ray.com
 
